@@ -1,12 +1,15 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
-  
+ new_array = ["Ramesh", "Chuwan", "Shankar", "Khatri"]
 end
 
 def add_element_to_end_of_array(array, element)
+  array = []
+  array << element
+  
   
 end
 
@@ -37,3 +40,4 @@ end
 def update_element_from_index(array, index_number, element)
 
 end
+
